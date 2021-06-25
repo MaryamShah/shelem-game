@@ -1,9 +1,9 @@
 package com.game.shelem.enumuration;
 
 public enum CardType {
-    ORDINARY("ORDINARY", 0),
-    FIVE_SCORE("FIVE_SCORE", 5),
-    TEN_SCORE("TEN_SCORE", 10);
+    ORDINARY("ORDINARY_CARD", 0),
+    FIVE_POINT("FIVE_POINT_CARD", 5),
+    TEN_POINT("TEN_POINT_CARD", 10);
 
     private int value;
     private String name;

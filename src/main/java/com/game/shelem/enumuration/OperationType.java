@@ -2,12 +2,13 @@ package com.game.shelem.enumuration;
 
 public enum OperationType {
 
-    SHUFFLE("SHUFFLE", 0),
-    PLAY_CARD("PLAY_CARD", 1),
-    PLAYER_TURN("PLAYER_TURN", 2),
-    TOTAL_SCORE_CALCULATION("TOTAL_SCORE_CALCULATION", 3),
-    BUZZ("BUZZ", 4),
-    WINNER_CALCULATION("WINNER_CALCULATION",5);
+    REGISTER_PLAYER("REGISTER_PLAYER",0),
+    SHUFFLE("SHUFFLE", 1),
+    PLAY_CARD("PLAY_CARD", 2),
+    PLAYER_TURN("PLAYER_TURN", 3),
+    TOTAL_SCORE_CALCULATION("TOTAL_SCORE_CALCULATION", 4),
+    BUZZ("BUZZ", 5),
+    WINNER_CALCULATION("WINNER_CALCULATION",6);
 
     private int value;
     private String name;
