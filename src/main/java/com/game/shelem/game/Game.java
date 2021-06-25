@@ -3,7 +3,6 @@ package com.game.shelem.game;
 import com.game.shelem.player.Player;
 import com.game.shelem.table.Round;
 import lombok.Data;
-
 import java.util.Set;
 
 @Data
