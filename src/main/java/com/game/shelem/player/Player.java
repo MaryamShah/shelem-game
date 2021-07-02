@@ -11,7 +11,7 @@ public class Player {
 
     private String firstName;
     private String lastName;
-    private boolean regnant = false;  //hAkem
+    private boolean king = false;  //hAkem
     private boolean playing = false;
     private Set<Card> cards;
     private Score score;

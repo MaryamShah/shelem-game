@@ -7,5 +7,10 @@ import lombok.Data;
 public class Card {
     private String name;
     private CardType type;
-    private boolean isPlayed = false;
+    private boolean played = false;
+
+    Card(String name, CardType type) {
+        this.name = name;
+        this.type = type;
+    }
 }
